@@ -1,4 +1,4 @@
-# Producer Trend Radar v3
+# Producer Trend Radar v3.1
 
 정적 HTML + Vercel 서버리스 함수로 만든 무료 배포용 음악 트렌드 레이더입니다.
 
