@@ -1,25 +1,24 @@
-# Producer Trend Radar v2 Category Matching
+# Producer Trend Radar v3
 
-정적 HTML + Vercel Serverless Function 버전입니다.
+정적 HTML + Vercel 서버리스 함수로 만든 무료 배포용 음악 트렌드 레이더입니다.
 
-- package.json 없음
-- npm install 없음
-- API 키 없음
-- Apple Music RSS 공개 JSON feed 사용
-- iTunes Search API 보조 사용
-- 장르별 카테고리 매칭 강화
-- 장르별 Hot Tracks 10~15개 표시
-- 한국 탭은 Idol / OST / K-indie 중심
+## 추가 기능
+
+- 트렌드 변화 추세 차트
+- 장르별 인기 유입 흐름 그래프
+- 기획사/A&R 픽업 가능성 탭
+- 시장 알파픽 신호 탭
+- 장르별 Hot Tracks 10~15개
 - YouTube API 없이 YouTube 검색 링크 제공
-- 실시간 공개 음악 신호 최대 60개 표시
+- API 키 없음 / package.json 없음 / npm install 없음
 
-## 배포
+## 배포 파일
 
-GitHub repository 안의 기존 파일을 모두 삭제한 뒤 아래 파일만 업로드하세요.
+GitHub 저장소에는 아래만 올리세요.
 
 - index.html
 - vercel.json
-- api/trends.js
 - README.md
+- api/trends.js
 
-Vercel에서 Redeploy 시 Clear Build Cache를 체크하세요.
+기존 Next.js 파일이나 package.json이 남아 있으면 Vercel이 npm install을 실행할 수 있습니다.
